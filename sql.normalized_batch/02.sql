@@ -1,6 +1,3 @@
-/*
- * Calculates the hashtags that are commonly used with the hashtag #coronavirus
- */
 SELECT
     tag,
     count(*) as count

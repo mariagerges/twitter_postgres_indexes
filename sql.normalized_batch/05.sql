@@ -1,6 +1,3 @@
-/*
- * Calculates the hashtags that are commonly used for English tweets containing the word "coronavirus"
- */
 SELECT
     tag,
     count(*) AS count
@@ -17,5 +14,3 @@ GROUP BY tag
 ORDER BY count DESC,tag
 LIMIT 1000
 ;
-
-
